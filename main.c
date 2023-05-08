@@ -1,10 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#define yaz printf // define komutu belirteç yardımı ile örenktede göründüğü üzere değistirme yapar
-#undef yaz  // bu komut ise define komutunun tersidir
+#include <math.h>
 int main() 
 {
-	printf("Selman YILDIRIM");
+	// onluk tabanda yazÄ±ldan sayÄ±yÄ± ikilik tabana Ã§evirme ,
+	/*
+	int sayi,ikilik,i;
+	printf(" sayi giriniz : "); 
+	scanf("%d",&sayi);
+	for (i = 8; i>=0;i--)                      // --> i her dongude azalÄ±yor
+	{
+			ikilik = sayi >> i;				  // --> >> = bir karakter kaydÄ±r -Ã¶rn- 		x >> y
+			if (ikilik & 1)
+			printf(" 1 ");
+			else 
+			printf(" 0 ");
+	}
+	*/
+	
+	
+	// hipotenÃ¼s hesaplama
+						// -- > gerekli kÃ¼tÃ¼phane #include <math.h>
+	/*			
+	int k1,k2;			// -- > integer deÄŸerler atadÄ±k
+	float hipo;			// -- > flaot degerler atadÄ±k
+	printf(" iki dik kenar giriniz: ");		// --> kullanÄ±cÄ±dan iki tane dik kenar verisi aldÄ±k 
+	scanf(" %d%d ",&k1,&k2);			
+	
+	hipo = sqrt(( k1*k1)+ (k2*k2));
+	
+	printf(" hipoteus : %.2f",hipo);
 	return 0;
-}
+	*/
+	
+	 
+}	
